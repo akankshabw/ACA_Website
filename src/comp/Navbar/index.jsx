@@ -50,7 +50,7 @@ const Navbar = () => {
 
         <div className="registerbtn">
           <button className="nav-reg">
-            <a href="#" className="text-white">Contact Us</a>
+            <a className="text-white">Contact Us</a>
           </button>
         </div>
       </div>
