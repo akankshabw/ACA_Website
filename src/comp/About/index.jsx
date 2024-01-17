@@ -1,25 +1,29 @@
-import "./style.css";
-function About(){
-return(
-  <>   
-     <header>
-        <h1>About Us</h1>
-    </header>
-      <div class="container">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla quam velit, vulputate eu pharetra nec,
-            mattis ac neque. Duis vulputate commodo lectus, ac blandit elit tincidunt id. Sed rhoncus, tortor sed
-            eleifend tristique, tortor mauris molestie elit, et lacinia ipsum quam nec dui. Quisque nec mauris sit
-            amet elit iaculis pretium sit amet quis magna. Aenean velit odio, elementum in tempus ut, vehicula eu felis.
-            Etiam auctor odio enim, id consequat risus vulputate id. Sed cursus urna at sapien tincidunt, quis
-            ultricies nisi faucibus.</p>
 
-        <p>Proin vel elit nunc. Mauris ut est nec nulla suscipit dapibus. Curabitur sit amet libero quis odio
-            dignissim ullamcorper. Sed tincidunt odio id odio aliquam, in luctus enim sodales. Nullam sit amet nisi
-            nec nulla suscipit dapibus. Sed faucibus massa quis ex varius, id sollicitudin arcu commodo. Nulla facilisi.
-            Suspendisse potenti. Nulla facilisi. Donec convallis ex eget nibh eleifend, ut dignissim nunc vestibulum.
-        </p>
-    </div>
-  </>
-)
+import React from 'react';
+import "./styles.css";
+import background1 from "../../assets/KD.jpeg";
+
+function About() {
+  return (
+    <section className="about-container "  >
+      <div className="header1">
+        <h1 >About Us</h1>
+      </div>
+      <div className ="Details"> 
+      <p>Association for Computing Activities (ACA) is the Computer Science society of IIT Kanpur. It organizes departmental activities right from freshers’ to farewell in addition to several programming competitions and lectures.</p>
+      </div>
+      <div className="Aim">
+        <h1> Our Aim</h1>
+        <ul>
+            <li>To spread knowledge about Computer Science and technology.</li>
+            <li>To encourage students to get involved in extra-curricular engineering projects.</li>
+            <li>To provide computing resources and guidance to students.</li>
+            <li>To promote student-student and student-teacher interaction.</li>
+        </ul>
+      </div>
+      
+    </section>
+  )
 }
+
 export default About;

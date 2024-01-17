@@ -1,0 +1,42 @@
+.header2 h1{
+    font-size: 450%;
+    justify-content: left;
+    font-weight: 600;
+}
+
+/* ul {
+    display: block;
+    /* list-style-type: disc; */
+    /* margin-block-start: 1em; */
+    /* margin-block-end: 1em; */
+    /* margin-inline-start: 0px; */
+    /* margin-inline-end: 0px; */
+   
+.list li{
+    font-size: 150%;
+    text-align: left;
+    display: list-item;
+    /* display: block; */
+    /* padding-inline-start: 50px;  */
+    list-style-type: disc; 
+    list-style-position:inside;
+    margin-left: 25rem;
+}
+
+@media screen and (max-width: 1040px){
+    .list li{
+        margin-left: 0rem;
+        list-style-position:outside;
+        padding-right: 10px;
+    }
+}
+
+.event-container{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(" https://img.freepik.com/premium-vector/abstract-background-stage-with-scenic-lights-round-futuristic-technology-user-interface_69961-380.jpg");
+    color: white;
+    padding-top:3rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom:3rem;
+}

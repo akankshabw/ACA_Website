@@ -16,7 +16,7 @@ const Navbar = () => {
         <img
         src={logo}
         alt="Logo"
-        className="scale-150 w-[2.5em] "
+        className="scale-150 w-[4em] "
         />
         </div>
       <nav className="nav1 md:bg-gray-700 z-50">
