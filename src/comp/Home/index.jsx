@@ -7,9 +7,9 @@ function Home() {
       <div className="header">
         <h1 className='text-7xl text-white font-serif pt-10'>$ Hello World!_</h1>
       </div>
-      <div className="body pt-32">
-        <h1 className='heading'>ACA, IIT Kanpur</h1>
-        <p className='content'>Association for Computing Activities (ACA) is the Computer Science society of IIT Kanpur. ACA organizes departmental activities right from freshers’ to farewell in addition to several programming competitions and lectures.</p>
+      <div className="body pt-28">
+        <h1 className='heading pb-10'>ACA, IIT Kanpur</h1>
+        <p className='content text-md'>Association for Computing Activities (ACA) is the Computer Science society of IIT Kanpur. ACA organizes departmental activities right from freshers’ to farewell in addition to several programming competitions and lectures.</p>
       </div>
     </section>
   )

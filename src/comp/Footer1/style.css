@@ -26,11 +26,11 @@ padding: 20px 30px 20px;
 }
 .socialIcons a:hover{
   background-color: #111;
-  transition: 0.5s;
+  transition: 1s;
 }
 .socialIcons a:hover button{
  color: white;
- transition: 0.2s;
+ transition: 0.8s;
 }
 
 

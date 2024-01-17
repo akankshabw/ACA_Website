@@ -13,7 +13,7 @@ function Footer1(){
     </div>
     </div>
     <div className="footerBottom">
-      <p>Copyright &copy; 2022 </p>
+      <p>Copyright &copy; 2024 </p>
     </div>
     </footer>
     </>
