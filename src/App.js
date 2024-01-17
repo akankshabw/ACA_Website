@@ -6,7 +6,7 @@ import Event from './comp/event';
 import Faculty from './comp/Faculty';
 import { useEffect } from 'react';
 import Footer1 from './comp/Footer1' 
-import About from './comp/About';
+import Projects from './comp/Projects';
 function App() {
   useEffect(() => {
     document.title = 'ACA'
@@ -18,6 +18,16 @@ function App() {
       <About />
       <Event />
       <Faculty />
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <Projects/>
+       <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
+      <br></br>
       <Footer1/>
     </div>
   );
