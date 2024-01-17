@@ -32,7 +32,7 @@ const posts = [
 
  function Project() {
   return (
-    <div className="bg-white py-24 sm:py-32 text-left">
+    <div className="bg-white py-24 sm:py-32 text-left" id="projects">
       <div className="mx-auto  px-6 lg:px-8">
         <div className="mx-auto  lg:mx-0">
           <h2 className="text-3xl  font-bold tracking-tight text-gray-900 sm:text-4xl

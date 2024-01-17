@@ -50,11 +50,11 @@ const Navbar = () => {
             </p>
           </NavLink>  
         </div>
-        <div className="registerbtn">
+        <NavLink to="#contacts" smooth duration={500} className="registerbtn">
           <button className="nav-reg">
             <a  className="text-white">Contact Us</a>
           </button>
-        </div>
+        </NavLink>
       </div>
 
       {/* code for small screens */}

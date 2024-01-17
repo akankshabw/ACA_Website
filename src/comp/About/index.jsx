@@ -5,7 +5,7 @@ import background1 from "../../assets/KD.jpeg";
 
 function About() {
   return (
-    <section className="about-container "  >
+    <section className="about-container "  id='about'>
       <div className="header1">
         <h1 >About Us</h1>
       </div>
