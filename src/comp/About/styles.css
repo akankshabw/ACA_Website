@@ -1,0 +1,98 @@
+/* pt-20 bg-no-repeat bg-center bg-cover
+style={{ backgroundImage: `url(${background})`}} data-scroll-container */
+
+.Aim{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+.Details{
+    font-size: 150%;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.header1 h1{
+    font-size: 450%;
+    justify-content: left;
+    font-weight: 600;
+
+}
+.about-container{
+    background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://qph.cf2.quoracdn.net/main-qimg-105d31c53d69786259adb1a380f2f3a5-lq");
+    color: white;
+    padding-top:6rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom:6rem;
+    height: 100vh;
+}
+.Aim h1{
+    font-size: 350%;
+    justify-content: left;
+    font-weight: 500;
+}
+@media screen and (max-width: 1040px){
+    .about-container{
+        background-image:linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url("https://qph.cf2.quoracdn.net/main-qimg-105d31c53d69786259adb1a380f2f3a5-lq");
+        color: white;
+        padding-top:3rem;
+        background-size: cover;
+        background-position: center center;
+        background-repeat: no-repeat;
+        padding-bottom:3rem;
+    }
+    .Aim ul {
+        display: block;
+        list-style-type: disc;
+        margin-block-start: 1em;
+        margin-block-end: 1em;
+        margin-inline-start: 0px;
+        margin-inline-end: 0px;
+        padding-inline-start: 30px;
+        
+    }
+    .Aim li{
+        display: list-item;
+        text-align: left;
+        
+    }
+
+    .header1{
+        padding-top: 0rem;
+    }
+}
+
+
+ul {
+    display: block;
+    /* list-style-type: disc; */
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 30px;
+}
+/* ::marker {
+    unicode-bidi: isolate;
+    font-variant-numeric: tabular-nums;
+    text-transform: none;
+    text-indent: 0px !important;
+    text-align: start !important;
+    text-align-last: start !important;
+} */
+
+/* li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+} */
+
+.Aim li{
+    list-style-position:outside;
+    display: list-item;
+    font-size: 150%;
+    margin-left: 1rem;
+}
+
+.Aim{
+    padding-top: 40px;
+}

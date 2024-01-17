@@ -1,0 +1,39 @@
+.para{
+    padding-top: 1rem;
+    /* padding-bottom: 1rem; */
+    /* text-align: center; */
+    width: 90%;
+    justify-self: center;
+    padding-left: 11rem;
+    font-size: 130%;
+}
+.faculty-container{
+    background-image:linear-gradient(rgba(0,0,0,0.8), rgba(0,0,0,0.7)), url(" https://png.pngtree.com/background/20210711/original/pngtree-company-annual-awards-ceremony-background-picture-image_1105349.jpg");
+    color: white;
+    padding-top:3rem;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    padding-bottom:3rem;
+    height: 100vh;
+}
+
+.header3{
+    font-size: 450%;
+    justify-content: left;
+    font-weight: 600;
+}
+
+@media screen and  (max-width: 1040px){
+    .para{
+        padding-left: 4rem;
+    /*padding-right: 2rem;  */
+        width: 90%;
+        justify-self: center;
+    }
+    
+    .faculty-container{
+        padding-bottom: 5rem;
+        padding-top: 1rem;
+    }
+}
