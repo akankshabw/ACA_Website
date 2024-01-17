@@ -2,7 +2,7 @@ import './App.css';
 import Home from './comp/Home';
 import Navbar from './comp/Navbar';
 import Footer1 from './comp/Footer1' 
-import About from './comp/About';
+import Projects from './comp/Projects';
 function App() {
   return (
     <div className="App">
@@ -12,7 +12,7 @@ function App() {
       <br></br>
       <br></br>
       <br></br>
-       {/* <About/> */}
+      <Projects/>
        <br></br>
       <br></br>
       <br></br>
