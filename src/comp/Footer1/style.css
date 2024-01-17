@@ -1,0 +1,44 @@
+@import url( "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css");
+
+footer{
+background-color: #111;
+box-sizing: border-box;
+}
+.footerContainer{
+width: 100%;
+padding: 20px 30px 20px;
+}
+.socialIcons{
+  display: flex;
+  justify-content: center;
+}
+.socialIcons a{
+  text-decoration: none;
+  padding: 10px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 50%;
+}
+.socialIcons a button{
+  font-size: 2em;
+  color: black;
+  opacity: 0.9;
+}
+.socialIcons a:hover{
+  background-color: #111;
+  transition: 0.5s;
+}
+.socialIcons a:hover button{
+ color: white;
+ transition: 0.2s;
+}
+
+
+.footerBottom{
+  background-color: #111;
+  padding: 20px;
+  text-align: center;
+}
+.footerBottom p{
+  color: white;
+}

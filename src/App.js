@@ -1,10 +1,12 @@
 import './App.css';
 import Home from './comp/Home';
 import Navbar from './comp/Navbar';
-import About from './comp/About';
+
 import Event from './comp/event';
 import Faculty from './comp/Faculty';
 import { useEffect } from 'react';
+import Footer1 from './comp/Footer1' 
+import About from './comp/About';
 function App() {
   useEffect(() => {
     document.title = 'ACA'
@@ -16,6 +18,7 @@ function App() {
       <About />
       <Event />
       <Faculty />
+      <Footer1/>
     </div>
   );
 }

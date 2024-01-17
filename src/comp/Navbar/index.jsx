@@ -9,18 +9,21 @@ const Navbar = () => {
   const toggle = () => setIsopen(!isOpen);
 
   return (
+    <>
+    <div>
     <section className="navbar-container z-50" data-scroll-container>
-      <nav className="nav1 md:bg-gray-700 z-50">
-      </nav>
-
-      <div className="Nav-components">
-        <div className="nav-logo">
+    <div className="nav-logo">
         <img
         src={logo}
         alt="Logo"
         className="scale-150 w-[4em] "
         />
         </div>
+      <nav className="nav1 md:bg-gray-700 z-50">
+      </nav>
+
+      <div className="Nav-components">
+        
 
         <div className="Nav-in">
           <NavLink to="#" smooth duration={500} className="navlink md:cursor-pointer  md:hover:text-blue-400 md:duration-500">
@@ -47,10 +50,9 @@ const Navbar = () => {
             </p>
           </NavLink>  
         </div>
-
         <div className="registerbtn">
           <button className="nav-reg">
-            <a href="#" className="text-white">Contact Us</a>
+            <a  className="text-white">Contact Us</a>
           </button>
         </div>
       </div>
@@ -74,6 +76,8 @@ const Navbar = () => {
         </div>
       </div>
     </section>
+    </div>
+    </>
   );
 };
 
