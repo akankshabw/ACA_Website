@@ -34,7 +34,7 @@ const Navbar = () => {
               About
             </p>
           </NavLink>
-          <NavLink to="#awards" smooth duration={500} className="navlink md:cursor-pointer  md:hover:text-blue-400 md:duration-500">
+          <NavLink to="#faculty" smooth duration={500} className="navlink md:cursor-pointer  md:hover:text-blue-400 md:duration-500">
             <p>
               Awards
             </p>
@@ -65,7 +65,7 @@ const Navbar = () => {
         <div className={`${isOpen? "flex" : "hidden"} md:hidden text-[#f5f0ec] bg-black fixed top-0 pt-40 text-center flex flex-col justify-start min-h-screen z-10 overflow-hidden w-2/3 right-0 rounded-l-[20px]`}>
           <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#" className=" font">Home</NavLink></div>
           <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#about" className=" font">About</NavLink></div>
-          <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#awards" className=" font">Awards</NavLink></div>
+          <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#faculty" className=" font">Awards</NavLink></div>
           <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#events" className=" font">Events</NavLink></div>
           <div className="flex justify-center p-2 text-2xl" onClick={toggle}><NavLink smooth to="#projects" className=" font">Projects</NavLink></div>
           <div className="flex justify-center p-2 text-2xl" onClick={toggle}>
