@@ -2,7 +2,7 @@ import React from 'react';
 import "./styles_event.css";
 const event = () => {
   return (
-    <section className="event-container "  >
+    <section className="event-container "  id='events'>
       <div className="header2">
         <h1 >Events</h1>
       </div>
